@@ -1,6 +1,10 @@
 [flake8]
-execlude = 
-    migrations,
+exclude =
+    .git,
+    .gitignore,
+    *.pot,
+    *.py[co],
     __pycache__,
-    manage.py,
+    venv,
+    .env,
     settings.py
