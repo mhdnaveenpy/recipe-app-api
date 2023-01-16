@@ -8,3 +8,4 @@ exclude =
     venv,
     .env,
     settings.py
+    migrations
